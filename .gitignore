@@ -1,0 +1,65 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+venv*/
+
+# Build & dist
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Cache & logs
+.cache/
+.log/
+logs/
+logs*/
+*.log
+tmp/
+temp/
+tmp*/
+temp*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Hailo / Model / AI files
+*.hef
+*.pt
+*.onnx
+*.engine
+*.so
+*_ncnn_model
+*.torchscript
+
+# App resources & results
+resources/
+results/
+runs/
+
+# Project-specific ignore
+tests/*
+!tests/conftest.py
+!tests/test_log_cleaner.py
+!tests/test_event_image_saver.py
+!tests/test_track_event_count_reset.py
+!tests/test_sync_queue_full_reset.py
+config/profiles/test.yaml
+
+# macOS
+.DS_Store
+
+gstshar*
+NAS/
+nas.sh
